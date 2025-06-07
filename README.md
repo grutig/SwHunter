@@ -1,6 +1,6 @@
 # swhunter
 
-**swhunter** is an open-source application designed for Shortwave Listening (SWL) and Broadcast Listening (BCL). It allows users to manage shortwave broadcast station schedules (based on the EiBi database) and control compatible radio receivers using [Hamlib](https://github.com/Hamlib/Hamlib), manage CRUD operations on database, search the database and lookup it based on receiver frequency, date, time and schedules.
+**swhunter** is an open-source application designed for Shortwave Listening (SWL) and Broadcast Listening (BCL). It allows users to manage shortwave broadcast station schedules (based on the EiBi database - http://www.eibispace.de/) and control compatible radio receivers using [Hamlib](https://github.com/Hamlib/Hamlib), manage CRUD operations on database, search the database and lookup it based on receiver frequency, date, time and schedules.
 
 > ⚠️ **Alpha Stage**: swhunter is currently in **alpha** development. While it is already **usable**, features may be incomplete or subject to change.
 
