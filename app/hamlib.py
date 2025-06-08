@@ -146,12 +146,12 @@ class HamlibWrapper():
             names = ['hamlib-4.dll', 'hamlib.dll', 'libhamlib-4.dll', 'libhamlib.dll']
             loader = ctypes.WinDLL
         elif system == 'darwin':
-            paths = ['/usr/lib/', '/usr/local/lib/']
-            names = ['hamlib.dll', 'libhamlib.so.4', 'libhamlib.so']
-        else:
-            # linux
             paths = ['/usr/lib/', '/usr/local/lib/', '/opt/homebrew/lib/']
             names = ['libhamlib.4.dylib', 'libhamlib.dylib']
+        else:
+            # linux
+            paths = ['/usr/lib/', '/usr/local/lib/', '/usr/lib/aarch64-linux-gnu/']
+            names = ['libhamlib.so.4', 'libhamlib.so']
 
         for path in paths:
             for name in names:

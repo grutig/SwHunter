@@ -1,5 +1,9 @@
+.idea/
 .venv/
 _dist/
+_distlnx/
+_distrpi/
+_distmac/
 hamlib/*
 park/
 csv/

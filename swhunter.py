@@ -17,7 +17,7 @@ from app.hamlib import HamlibWrapper
 """ 
 ShortwaveHunter
 BCL radio software
-rel 0.4.0
+rel 0.4.01
 
 Copyright (c) 2025 I8ZSE, Giorgio L. Rutigliano
 (www.i8zse.it, www.i8zse.eu, www.giorgiorutigliano.it)
